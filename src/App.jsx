@@ -1,28 +1,47 @@
-import Header from "./componentes/Header"
-import Footer from "./componentes/Footer"
-import Main from "./componentes/Main"
-
+import Header from "./componentes/Header";
+import Footer from "./componentes/Footer";
+import Main from "./componentes/Main";
 
 function App() {
-  
-
   return (
     <div class="flex flex-col p-4 h-full w-full">
-    <Header/>
-    <div className="grid grid-cols-2 md:grid-cols-3 px-2 py-5 gap-2 justify-center items-center w-full">
-      <Main name="Bill Mahoney" job="PRODUCT OWNER" src="../public/images/photo1.png"/>
-      <Main name="Saba Cabrera" job="ART DIRECTOR" src="../public/images/photo2.png"/>
-      <Main name="Shae Le" job="TEACH LEAD" src="../public/images/photo3.png"/>
-      <Main name="Skylah Lu" job="UX DESIGNER" src="../public/images/photo4.png"/>
-      <Main name="Griff Richards" job="DEVERLOPER" src="../public/images/photo5.png"/>
-      <Main name="Stan John" job="DEVERLOPER" src="../public/images/photo6.png"/>
-    </div>
-    
+      <Header />
+      <div className="grid grid-cols-2 md:grid-cols-3 px-2 py-5 gap-2 justify-center items-center w-full">
+        <Main
+          name="Bill Mahoney"
+          job="PRODUCT OWNER"
+          src="../public/images/photo1.png"
+        />
+        <Main
+          name="Saba Cabrera"
+          job="ART DIRECTOR"
+          src="../public/images/photo2.png"
+        />
+        <Main
+          name="Shae Le"
+          job="TEACH LEAD"
+          src="../public/images/photo3.png"
+        />
+        <Main
+          name="Skylah Lu"
+          job="UX DESIGNER"
+          src="../public/images/photo4.png"
+        />
+        <Main
+          name="Griff Richards"
+          job="DEVERLOPER"
+          src="../public/images/photo5.png"
+        />
+        <Main
+          name="Stan John"
+          job="DEVERLOPER"
+          src="../public/images/photo6.png"
+        />
+      </div>
 
-    <Footer/>
-
+      <Footer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
